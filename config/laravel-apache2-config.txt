@@ -1,0 +1,9 @@
+# In the server side
+include host in the /etc/hosts
+127.0.0.1	laravel.local	laravel
+
+
+# In the client side
+If your environment is Windows, edit the file 'C:\Windows\System32\drivers\etc\hosts'
+and include the host with the ip pointingto your server address
+192.168.1.1    laravel.dev
